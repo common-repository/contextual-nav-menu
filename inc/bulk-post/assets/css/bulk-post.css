@@ -1,0 +1,44 @@
+.cnm_bulk_container {
+    float: left;
+    height: 250px;
+    position: relative;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.cnm_bulk_container ol {
+    overflow-y: auto; 
+    height: 190px;
+}
+
+.cnm_bulk_container ol li {
+    margin-left: 30px;
+}
+
+#cnm_result {
+    bottom: 10px;
+    color: #008000;
+    position: absolute;
+}
+
+#cnm_form label {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0.83em 0;
+    display: block;
+}
+
+#cnm_form_super_container,
+#cnm_form_container_launcher {
+    display: none;
+}
+
+#cnm_form_container {
+    width: 600px; 
+    display: none;
+}
+
+.cnm_container {
+    width: auto;
+}
